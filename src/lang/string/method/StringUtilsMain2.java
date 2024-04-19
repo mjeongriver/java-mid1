@@ -20,7 +20,7 @@ public class StringUtilsMain2 {
         //matches
         //"Hello, Java!";
         String regex = "Hello, (Java!World)";
-        System.out.println("'str'이 패턴과 일치하는가?" + str.matches(regex));
+        System.out.println("'str'이 패턴과 일치하는가? " + str.matches(regex));
 
     }
 }
