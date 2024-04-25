@@ -22,9 +22,6 @@ public class RandomMain {
 
         int randomRange2 = random.nextInt(10) + 1;//1 ~ 10까지 출력
         System.out.println("1 ~ 10까지 출력 = " + randomRange2);
-
-
-
     }
 
 
