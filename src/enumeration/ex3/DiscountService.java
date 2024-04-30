@@ -7,7 +7,7 @@ public class DiscountService {
     public int discount(Grade classGrade, int price) {
         int discouintPercent = 0;
 
-        if(classGrade == BASIC) { //상수니까 static import로 사용 가능 
+        if(classGrade == BASIC) { //상수니까 static import로 사용 가능
             discouintPercent = 10;
         } else if(classGrade == GOLD) {
             discouintPercent = 20;
