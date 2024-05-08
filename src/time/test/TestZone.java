@@ -15,7 +15,7 @@ public class TestZone {
         System.out.println("서울 시간: " + seoulTime);
         System.out.println("런던 시간: " + londonTime);
         System.out.println("뉴욕 시간: " + nyTime);
-        
+
 
     }
 }
