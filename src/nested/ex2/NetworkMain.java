@@ -1,4 +1,5 @@
-package nested.nested.ex1;
+package nested.ex2;
+
 
 public class NetworkMain {
 
