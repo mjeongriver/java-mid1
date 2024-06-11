@@ -1,0 +1,20 @@
+
+package exception.ex4;
+
+public class NetworkServiceV4 {
+
+    public void sendMessage(String data) {
+        String address = "http://example.com";
+        NetworkClientV4 client = new NetworkClientV4(address);
+        client.initError(data);
+
+        try {
+            //정상 흐름 모아서 해결
+            client.connect();
+            client.send(data);
+        } finally {
+            client.disconnect();
+        }
+
+    }
+}
